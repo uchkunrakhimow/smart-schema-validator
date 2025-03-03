@@ -1,0 +1,22 @@
+{
+  "name": "smart-schema-validator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A powerful TypeScript schema validation library with type inference, nested validation, and data transformation capabilities",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.8",
+    "@types/node": "^22.13.8",
+    "typescript": "^5.8.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
